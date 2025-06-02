@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Reforma';
+    src: url('Handicraft Regular.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+/* header */
+
+.header{
+    background-image: url("img/Rectangle 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 742px;
+}
+
+.logo{
+    width: 600px;
+    height: 400px;
+    padding-left: 5%;
+    display: flex;
+}
+
+.menu{
+    width: 490px;
+    height: 40px;
+    display: flex;
+    padding-left: 60%;
+    margin-top: -320px;
+}
+
+.gv{
+    color: #00D1FF;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Handicraft';
+    font-size: 36px;
+    text-indent: 20px;
+}
+
+.menu a:hover{
+    color: #00D1FF;
+}
+
+.menu p{
+    text-decoration: none;
+    color: #00D1FF;
+    font-family: 'Handicraft';
+    font-size: 36px;
+    text-indent: 20px;
+}
+
+.info{
+    color: white;
+    font-family: 'Handicraft';
+    width: 806px;
+    height: 173px;
+    padding-top: 180px;
+    padding-left: 5%;
+    font-size: 48px;
+    display: flex;
+}
+
+.knopka{
+    padding-top: 80px;
+    padding-left: 5%;
+    display: flex;
+}
+
+/* Иконки */
+
+main{
+    width: 100%;
+    height: 6000px;
+    background-color: #0A0A0A;
+}
+.section1{
+    padding-top: 20px;
+    margin-left: 50%;
+    width: 238px;
+    height: 50px;
+}
+
+.section1 img{
+    margin-right: 20px;
+}
+
+/* Об игре */
+
+.section2{
+    background-image: url("img/image 8.png");
+    background-repeat: no-repeat;
+    background-position: center 20px;
+    width: 100%;
+    height: 807px;
+}
+
+.info1{
+    font-family: 'Handicraft';
+    width: 524px;
+    height: 404px;
+    font-size: 40px;
+    color: white;
+    margin-left: 20%;
+    padding-top: 180px;
+}
+
+.h1{
+    padding-left: 20%;
+    font-size: 100px;
+}
+
+.video{
+    margin-top: -350px;
+    padding-left: 60%;
+}
+
+iframe{
+    border: 15px solid black;
+}
+
+/* Регистрация */
+
+.voite{
+    font-family: 'Handicraft';
+    font-size: 64px;
+    color: white;
+    margin-left: 20%;
+    padding-top: 50px;
+}
+
+input{
+    display: flex;
+    font-family: 'Handicraft';
+    background: transparent;
+    color: #707070;
+    font-size: 36px;
+    width: 500px;
+    height: 78px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+    margin-left: 20%;
+    margin-top: 50px;
+    border: 1px solid #707070
+}
+
+input:focus {
+    outline: #00D1FF;
+    border-color: #00D1FF;
+}
+
+/* чекбокс 1*/
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+.checkbox-label {
+    position: relative;
+    padding-left: 25px; 
+    cursor: pointer;
+    font-family: 'Handicraft';
+    color: #707070;
+}
+
+.checkbox-label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #707070;
+    background-color: #0A0A0A;
+}
+
+input[type="checkbox"]:checked + .checkbox-label::before {
+    background-color: #00D1FF;
+}
+
+.category-item{
+    padding-left: 20%;
+}
+
+/* чекбокс 2*/
+
+input[type="checkbox1"] {
+    display: none;
+}
+
+
+.checkbox-label1 {
+    position: relative;
+    padding-left: 25px; 
+    cursor: pointer;
+    font-family: 'Handicraft';
+    color: #707070;
+}
+
+.checkbox-label1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #707070;
+    background-color: #0A0A0A;
+}
+
+input[type="checkbox1"]:checked + .checkbox-label1::before {
+    background-color: #00D1FF;
+}
+
+.category-item1{
+    padding-left: 30%;
+    margin-top: -20px;
+}
+
+.voite-cherez{
+    font-family: 'Handicraft';
+    font-size: 64px;
+    color: white;
+    margin-left: 55%;
+    margin-top: -400px;
+}
